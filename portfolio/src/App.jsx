@@ -1,13 +1,19 @@
+import React from "react";
+import Navbar from "./Navbar.jsx";
+import Header from "./Header.jsx";
+import About from "./About.jsx";
+import Projects from "./Projects";
+import Footer from "./Footer.jsx";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1>My Portfolio</h1>
-      <h2>About Me</h2>
-      <h2>Projects</h2>
-      <h2>Skills</h2>
-      <h2>Contact</h2>
+      <Navbar />
+      <Header />
+      <About />
+      <Projects />
+      <Footer />
     </>
   );
 }

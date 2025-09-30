@@ -1,0 +1,12 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  
+  
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
