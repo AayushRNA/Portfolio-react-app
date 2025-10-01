@@ -5,15 +5,18 @@ import About from "./About.jsx";
 import Projects from "./Projects";
 import Footer from "./Footer.jsx";
 import "./App.css";
+import { Route } from "react-router";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Header />
-      <About />
-      <Projects />
-      <Footer />
+      <Route>
+        <Navbar />
+        <Header />
+        <About />
+        <Projects />
+        <Footer />
+      </Route>
     </>
   );
 }
