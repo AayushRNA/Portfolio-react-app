@@ -10,13 +10,11 @@ import { Route } from "react-router";
 function App() {
   return (
     <>
-      <Route>
-        <Navbar />
-        <Header />
-        <About />
-        <Projects />
-        <Footer />
-      </Route>
+      <Navbar />
+      <Header />
+      <About />
+      <Projects />
+      <Footer />
     </>
   );
 }
